@@ -90,10 +90,8 @@ const createWindow = async () => {
     }
     const displays = screen.getAllDisplays();
 
-    // info 遍历所有屏幕
     displays.forEach((display, index) => {
       if (index === 0) {
-        // info 为视频壁纸预研窗口 暂不开放
         createWallpaper({
           display,
         });
