@@ -25,7 +25,7 @@ export default async ({ display }: CreateWallpaperProps) => {
 
     wallWindow?.setBounds(display.bounds);
 
-    await wallWindow.loadURL('https://www.baidu.com');
+    await wallWindow.loadURL('https://www.google.com');
 
     if (wallWindow) {
       attach(wallWindow, {
